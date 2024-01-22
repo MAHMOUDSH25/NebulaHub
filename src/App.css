@@ -1,42 +1,115 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* this architechture is called mobile first (min) */
+/* xs */
+@media (min-width: 475px) {
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* sm */
+@media (min-width: 640px) {
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* md */
+@media (min-width: 768px) {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* lg */
+@media (min-width: 1024px) {
 }
 
-.card {
-  padding: 2em;
+/* xl */
+@media (min-width: 1280px) {
 }
 
-.read-the-docs {
-  color: #888;
+/* 2xl */
+@media (min-width: 1536px) {
+}
+
+/* .btn {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  background-color: var(--clr-rose);
+  color: #f1f5f9;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgb(225, 29, 72, 0.5), 0 6px 6px rgb(225, 29, 72, 0.5),
+    0 0 100px -10px var(--clr-rose);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgb(225, 29, 72, 0.25),
+    0 10px 10px rgb(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+.loading{
+  filter: blur(40px) grayscale(100%);
+}
+
+.loaded{
+  filter: blur(0) grayscale(0);
+  transition: 0.7s ease-in-out;
 } */
+
+/* this architechture is called mobile first (min) */
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    /* border: solid 1px;
+    border-color: rgb(255, 0, 0); */
+  }
+
+  .section {
+    margin-top: 10rem;
+  }
+}
+
+/* xlg */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}

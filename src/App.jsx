@@ -1,7 +1,5 @@
 import "./App.css";
 
-// import
-
 import Header from "./Sections/Header/Header";
 
 function App() {
